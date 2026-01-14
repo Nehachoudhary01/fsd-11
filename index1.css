@@ -1,0 +1,21 @@
+p {
+    background-color: rgb(114, 72, 106);
+    border: 2px dark black;
+    border-style: double;
+}
+.p1 {
+    background-color: blue;
+    color: aquamarine;
+}
+.p2 {
+    background-color: brown;
+    color: blue;
+}
+.p3 {
+    background-color: chartreuse;
+    color: azure;
+}
+#h1 {
+    background-color: blueviolet;
+    color:antiquewhite;
+}

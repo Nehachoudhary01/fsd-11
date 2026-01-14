@@ -1,0 +1,31 @@
+        /* body {
+            margin: 0;
+        }
+        p {
+            background-color: bisque;
+        }*/
+        img {
+            height: 200px;
+            width: 200px;
+        }
+        /* div {
+            background-color: burlywood;
+        } */
+        .div1 {
+            background-color: aqua;
+        }
+        .div2 {
+            background-color: aquamarine;
+        }
+        #p1 {
+            background-color: blue;
+        }
+        #p2 {
+            background-color: blueviolet;
+        }
+        #demo {
+            background-color: brown;
+        }
+        #demo:hover {
+            background-color: black;
+        }
