@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="index2.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
   </head>
   <style>
     * {
@@ -35,6 +37,29 @@
     td{
       background-color: rgb(209, 157, 88);
     }
+    
+         .btn-grad {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)} 
+         .btn-grad {
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+          
+         
   </style>
   <body>
     <h1 style="color: aquamarine">FSD-11</h1>
@@ -44,7 +69,7 @@
     <h5 style="background-color: hsl(44, 33%, 55%)">FSD-11</h5>
     <h6 style="background-color: hsla(66, 32%, 7%, 0.65%)">FSD-11</h6>
 
-    <p>
+    <p class="macondo-regular"> 
       <b>Lorem ipsum dolor</b>sit amet consectetur adipisicing elit.
       Perferendis, velit!
     </p>
@@ -64,7 +89,7 @@
       officiis!</span
     >
 
-    <span
+    <span class="macondo-regular"
       >Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sint
       doloremque accusantium harum nesciunt repellendus laudantium voluptas id,
       reprehenderit laboriosam, totam nemo assumenda sunt illo perspiciatis.
@@ -117,6 +142,7 @@
         <td>6754387622</td>
       </tr>
     </table>
-    
+    <audio></audio>
+    <button class="btn-grad" style="text-align: center;">login</button>
   </body>
 </html>

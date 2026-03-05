@@ -1,0 +1,39 @@
+.card{
+ max-width: 1200px;
+ margin: 0 auto;
+}
+.tab{
+  background-color: aqua;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.card1{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+  gap:10px;
+}
+.tab{
+  background-color: aqua;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.tab{
+  background-color: aqua;
+  width: 50%;
+  float: left;
+
+}
+.card{
+clear: both;
+}
+
+  .tab{
+  background-color: aqua;
+ 
+}
+.card{
+display: flex;
+align-items: stretch;
+}

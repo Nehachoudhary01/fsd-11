@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="layout1.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header">
+        <div>
+            <button>Hello</button>
+        </div>
+        <div>
+            <input onfocus="show()" type="text" placeholder="Search Here ......" />
+            <br>
+            <span id="show"></span>
+        </div>
+    </div>
+    <div class="main">
+      <div class="sidebar">
+        <div class="tab">HTML</div>
+        <div class="tab">CSS</div>
+        <div class="tab">JS</div>
+        <div class="tab">NodeJS</div>
+        <div class="tab">React</div>
+        <div class="tab">Express</div>
+        <div class="tab">MongoDb</div>
+        <div class="tab">NextJs</div>
+      </div>
+      <div class="content">
+        <div class="cards">
+        <div class="card">HTML Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, deleniti.</div>
+        <div class="card">CSS Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, deleniti.</div>
+        <div class="card">JS Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, deleniti.</div>
+        <div class="card">React Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, deleniti.</div>
+        <div class="card">NodeJs Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, deleniti.</div>
+        <div class="card">Express Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, deleniti.</div>
+
+</div>
+      </div>
+    </div>
+    <div class="footer">Footer</div>
+  </body>
+  <script>
+    function show() {
+        document.getElementById('show').innerHTML = 'Search Here'
+    }
+  </script>
+</html>

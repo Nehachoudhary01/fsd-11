@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: separate;
+    }
+  </style>
+  <body>
+    <table id="p1">
+      <tr>
+        <th>name</th>
+        <th>age</th>
+        <th>city</th>
+      </tr>
+      <tr>
+        <td>neha</td>
+        <td>19</td>
+        <td>bhopal</td>
+      </tr>
+      <tr>
+        <td>neha</td>
+        <td>19</td>
+        <td>bhopal</td>
+      </tr>
+      <tr>
+        <td>neha</td>
+        <td>19</td>
+        <td>bhopal</td>
+      </tr>
+    </table>
+    <button onclick="replace()">Boom</button>
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            style="height: 300px; width: 5%"
+            src="https://images.pexels.com/photos/210186/pexels-photo-210186.jpeg?cs=srgb&dl=cascade-clouds-cool-wallpaper-210186.jpg&fm=jpg"
+            class="d-block w-100"
+            alt="image loading"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            style="height: 300px; width: 5%"
+            src="https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Free-Pictures-3840x2160.jpg"
+            class="d-block w-100"
+            alt="image loading"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            style="height: 300px; width: 5%"
+            src="https://images.pexels.com/photos/236047/pexels-photo-236047.jpeg?cs=srgb&dl=clouds-cloudy-countryside-236047.jpg&fm=jpg"
+            class="d-block w-100"
+            alt="image loading"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </body>
+  <script>
+    function replace() {
+      document.getElementById("p1").style.borderCollapse = "collapse";
+    }
+  </script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+</html>

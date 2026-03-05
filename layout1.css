@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    overflow: visible;
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.main {
+    display: flex;
+    min-height: calc(100vh - 117px);
+    background-color: aqua;
+}
+
+.sidebar {
+    width: 21%;
+    background-color: greenyellow;
+    display: grid;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.tab {
+    margin: 10px 0px;
+    padding: 15px;
+    width: 100%;
+    background-color: red;  
+    text-align: center;
+    cursor: pointer;
+}
+.tab:hover {
+    background-color: greenyellow;
+}
+
+.content {
+    width: 79%;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 5px;
+    padding: 20px;
+    height: 20vh;
+    width: 30%;
+    background-color: blanchedalmond;
+    color: blueviolet;
+    
+}
+input:focus {
+    background-color: aqua;
+}
+
+button:focus {
+    background-color: red;
+}
